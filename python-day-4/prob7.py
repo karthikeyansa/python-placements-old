@@ -1,0 +1,5 @@
+n=list(input("enter name,age,height: ").split(','))
+c=n.pop(0)
+n.sort()
+n.insert(0,c)
+print(tuple(n))
